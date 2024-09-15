@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<node &#35;0<br/>kimyon &le; 0.5<br/>samples = 2448<br/>value = [598, 320, 799, 289, 442]<br/>class = Kore Mutfağı>, fillcolor="#e9fcf9"] ;
+1 [label=<node &#35;1<br/>kavrulmuş susam tohumu &le; 0.5<br/>samples = 1986<br/>value = [237, 314, 796, 201, 438]<br/>class = Kore Mutfağı>, fillcolor="#d1f9f2"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<node &#35;2<br/>nişasta &le; 0.5<br/>samples = 1738<br/>value = [237.0, 309.0, 560.0, 199.0, 433.0]<br/>class = Kore Mutfağı>, fillcolor="#ecfcf9"] ;
+1 -> 2 ;
+3 [label=<node &#35;3<br/>samples = 1507<br/>value = [235.0, 293.0, 519.0, 187.0, 273.0]<br/>class = Kore Mutfağı>, fillcolor="#dafaf4"] ;
+2 -> 3 ;
+4 [label=<node &#35;4<br/>samples = 231<br/>value = [2, 16, 41, 12, 160]<br/>class = Çin Mutfağı>, fillcolor="#ef83d8"] ;
+2 -> 4 ;
+5 [label=<node &#35;5<br/>kişniş otu &le; 0.5<br/>samples = 248<br/>value = [0, 5, 236, 2, 5]<br/>class = Kore Mutfağı>, fillcolor="#43e6c8"] ;
+1 -> 5 ;
+6 [label=<node &#35;6<br/>samples = 246<br/>value = [0, 5, 236, 1, 4]<br/>class = Kore Mutfağı>, fillcolor="#41e6c7"] ;
+5 -> 6 ;
+7 [label=<node &#35;7<br/>samples = 2<br/>value = [0, 0, 0, 1, 1]<br/>class = Tayland Mutfağı>, fillcolor="#ffffff"] ;
+5 -> 7 ;
+8 [label=<node &#35;8<br/>balık &le; 0.5<br/>samples = 462<br/>value = [361, 6, 3, 88, 4]<br/>class = Hint Mutfağı>, fillcolor="#eca36e"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<node &#35;9<br/>soya sosu &le; 0.5<br/>samples = 405<br/>value = [353, 3, 1, 44, 4]<br/>class = Hint Mutfağı>, fillcolor="#e99356"] ;
+8 -> 9 ;
+10 [label=<node &#35;10<br/>samples = 375<br/>value = [346, 2, 1, 25, 1]<br/>class = Hint Mutfağı>, fillcolor="#e78b49"] ;
+9 -> 10 ;
+11 [label=<node &#35;11<br/>samples = 30<br/>value = [7, 1, 0, 19, 3]<br/>class = Tayland Mutfağı>, fillcolor="#9998f1"] ;
+9 -> 11 ;
+12 [label=<node &#35;12<br/>yoğurt &le; 0.5<br/>samples = 57<br/>value = [8, 3, 2, 44, 0]<br/>class = Tayland Mutfağı>, fillcolor="#706eec"] ;
+8 -> 12 ;
+13 [label=<node &#35;13<br/>samples = 52<br/>value = [3, 3, 2, 44, 0]<br/>class = Tayland Mutfağı>, fillcolor="#5c59e9"] ;
+12 -> 13 ;
+14 [label=<node &#35;14<br/>samples = 5<br/>value = [5, 0, 0, 0, 0]<br/>class = Hint Mutfağı>, fillcolor="#e58139"] ;
+12 -> 14 ;
+}
